@@ -3,6 +3,10 @@
   font-family: kingred;
   src: url(/Fonts/kingred.otf);
 }
+@font-face {
+  font-family: kajiro;
+  src: url(/Fonts/Kajiro.ttf);
+}
 
 @tailwind base;
 @tailwind components;

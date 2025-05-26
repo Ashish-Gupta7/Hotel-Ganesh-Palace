@@ -2,18 +2,24 @@ import React from "react";
 
 const About = ({ aboutRef }) => {
   return (
-    <div ref={aboutRef} id="About" className="w-full px-16">
+    <div
+      ref={aboutRef}
+      id="About"
+      className="w-full px-16 max-[769px]:px-4 max-[576px]:py-6"
+    >
       <div className="w-full flex flex-col items-start justify-center">
-        <h1 className="text-8xl">About Us</h1>
-        <div className="w-full flex flex-col gap-10 py-6">
-          <div className="owner w-full flex flex-col items-start justify-center gap-5">
-            <h1 className="text-2xl">Founder & Owner</h1>
+        <h1 className="text-8xl max-[1025px]:text-6xl max-[685px]:text-4xl font-semibold">
+          About Us
+        </h1>
+        <div className="w-full flex flex-col gap-10 py-6 max-[685px]:py-10 max-[685px]:gap-12 max-[576px]:gap-8 max-[576px]:py-8 max-[404px]:py-6 max-[404px]:gap-12">
+          <div className="owner w-full flex flex-col items-start justify-center gap-5 max-[685px]:gap-2">
+            <h1 className="text-2xl max-[404px]:text-xl">Founder & Owner</h1>
             <div className="flex items-center justify-center gap-10">
               <div className="flex items-center justify-center gap-5">
                 {/* <div className="h-[24px] w-[24px]">
                 <img src="/Images/Contact/Owner.png" alt="Owner" />
               </div> */}
-                <h3 className="text-xl text-[#A87F59] font-semibold">
+                <h3 className="text-xl text-[#A87F59] font-semibold max-[404px]:text-base">
                   Deenanath Gupta
                 </h3>
               </div>
@@ -21,7 +27,7 @@ const About = ({ aboutRef }) => {
                 {/* <div className="h-[24px] w-[24px]">
                 <img src="/Images/Contact/Owner.png" alt="Owner" />
               </div> */}
-                <h3 className="text-xl text-[#A87F59] font-semibold">
+                <h3 className="text-xl text-[#A87F59] font-semibold max-[404px]:text-base">
                   Sahil Gupta
                 </h3>
               </div>
@@ -29,11 +35,13 @@ const About = ({ aboutRef }) => {
           </div>
 
           <div className="w-full flex flex-col items-start justify-center gap-5">
-            <h1 className="text-2xl">Discover Our Brands</h1>
-            <div className="flex flex-wrap items-center justify-center gap-28">
+            <h1 className="text-2xl max-[404px]:text-xl">
+              Discover Our Brands
+            </h1>
+            <div className="flex flex-wrap items-center justify-center gap-28 max-[882px]:gap-10 max-[576px]:gap-4 max-[404px]:gap-2">
               <a
                 href="https://www.justdial.com/Shahdol/S-S-Motors-Jaisinghnagar/9999P7652-7652-190815211228-N3T4_BZDET"
-                className="hidden dark:block h-[60px] w-[60px] pb-32"
+                className="hidden dark:block h-[60px] w-[60px] pb-32 max-[576px]:pb-24 max-[576px]:h-[40px] max-[576px]:w-[40px] max-[404px]:h-[30px] max-[404px]:w-[30px] max-[404px]:pb-20"
               >
                 <img
                   src="/Images/Partners/DarkBG_SS_Motors.png"
@@ -42,7 +50,7 @@ const About = ({ aboutRef }) => {
               </a>
               <a
                 href="https://www.justdial.com/Shahdol/S-S-Motors-Jaisinghnagar/9999P7652-7652-190815211228-N3T4_BZDET"
-                className="block dark:hidden h-[60px] w-[60px] pb-32"
+                className="block dark:hidden h-[60px] w-[60px] pb-32 max-[576px]:pb-24 max-[576px]:h-[40px] max-[576px]:w-[40px] max-[404px]:h-[30px] max-[404px]:w-[30px] max-[404px]:pb-20"
               >
                 <img
                   src="/Images/Partners/LightBG_SS_Motors.png"
@@ -51,7 +59,7 @@ const About = ({ aboutRef }) => {
               </a>
               <a
                 href="https://www.justdial.com/Shahdol/New-Ssmotors-Near-Near-Ganesh-Palace-Jaisinghnagar/9999P7652-7652-240210124605-V1N7_BZDET"
-                className="h-[114px] w-[114px]"
+                className="h-[114px] w-[114px] max-[576px]:h-[90px] max-[576px]:w-[90px] max-[404px]:h-[70px] max-[404px]:w-[70px]"
               >
                 <img
                   src="/Images/Partners/New_SS_Motors.png"
@@ -61,7 +69,7 @@ const About = ({ aboutRef }) => {
 
               <a
                 href="https://www.justdial.com/Shahdol/S-S-Motors-Jaisinghnagar/9999P7652-7652-190815211228-N3T4_BZDET"
-                className="block dark:hidden h-[114px] w-[114px]"
+                className="block dark:hidden h-[114px] w-[114px] max-[576px]:h-[90px] max-[576px]:w-[90px] max-[404px]:h-[70px] max-[404px]:w-[70px]"
               >
                 <img
                   src="/Images/Partners/LightBG_Gupta_Motors.png"
@@ -70,20 +78,26 @@ const About = ({ aboutRef }) => {
               </a>
               <a
                 href="https://www.justdial.com/Shahdol/S-S-Motors-Jaisinghnagar/9999P7652-7652-190815211228-N3T4_BZDET"
-                className="hidden dark:block h-[114px] w-[114px]"
+                className="hidden dark:block h-[114px] w-[114px] max-[576px]:h-[90px] max-[576px]:w-[90px] max-[404px]:h-[70px] max-[404px]:w-[70px]"
               >
                 <img
                   src="/Images/Partners/DarkBG_Gupta_Motors.png"
                   alt="Gupta Motors"
                 />
               </a>
-              <a href="" className="hidden dark:block h-[114px] w-[114px]">
+              <a
+                href=""
+                className="hidden dark:block h-[114px] w-[114px] max-[576px]:h-[90px] max-[576px]:w-[90px] max-[404px]:h-[70px] max-[404px]:w-[70px]"
+              >
                 <img
                   src="/Images/Partners/DarkBG_Shrasti_Online.png"
                   alt="Shrasti Online"
                 />
               </a>
-              <a href="" className="block dark:hidden h-[114px] w-[114px]">
+              <a
+                href=""
+                className="block dark:hidden h-[114px] w-[114px] max-[576px]:h-[90px] max-[576px]:w-[90px] max-[404px]:h-[70px] max-[404px]:w-[70px]"
+              >
                 <img
                   src="/Images/Partners/LightBG_Shrasti_Online.png"
                   alt="Shrasti Online"
@@ -92,17 +106,19 @@ const About = ({ aboutRef }) => {
             </div>
           </div>
 
-          <div className="w-full flex items-center justify-between">
-            <div className="contact flex flex-col items-start gap-6">
-              <h1 className="text-2xl">Contact for Bookings</h1>
-              <div className="flex items-center justify-center gap-8">
-                <div className="flex items-center justify-center gap-3">
+          <div className="w-full flex items-center justify-between max-[576px]:flex-col max-[576px]:items-start max-[576px]:gap-4">
+            <div className="contact flex flex-col items-start gap-6 max-[576px]:gap-3">
+              <h1 className="text-2xl max-[404px]:text-xl">
+                Contact for Bookings
+              </h1>
+              <div className="flex items-center justify-center gap-8 max-[576px]:gap-6 max-[404px]:flex-col max-[404px]:gap-2 max-[404px]:items-start">
+                <div className="flex items-center justify-center gap-3 max-[576px]:gap-2">
                   <div className="h-[24px] w-[24px]">
                     <img src="/Images/Contact/Call.png" alt="Call" />
                   </div>
                   <h3 className="font-mono text-sm">+91 7748883352</h3>
                 </div>
-                <div className="flex items-center justify-center gap-3">
+                <div className="flex items-center justify-center gap-3 max-[576px]:gap-2">
                   <div className="h-[24px] w-[24px]">
                     <img src="/Images/Contact/Email.png" alt="Email" />
                   </div>
@@ -110,7 +126,7 @@ const About = ({ aboutRef }) => {
                 </div>
               </div>
             </div>
-            <div className="contact flex flex-col items-end gap-4">
+            <div className="contact flex flex-col items-end gap-4 max-[576px]:gap-3 max-[576px]:items-start">
               <h1 className="text-xl pr-1">Connect with us</h1>
               <div className="flex items-center justify-center gap-5">
                 <a

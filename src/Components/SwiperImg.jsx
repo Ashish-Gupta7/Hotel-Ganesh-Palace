@@ -44,7 +44,7 @@ const slideData = [
 
 const SwiperImg = () => {
   return (
-    <div className="h-[89vh] overflow-hidden min-[1025px]:hidden">
+    <div className="h-[89vh] overflow-hidden min-[1025px]:hidden max-[576px]:h-[91vh]">
       <Swiper
         cssMode={true}
         mousewheel={true}
@@ -66,10 +66,10 @@ const SwiperImg = () => {
             style={{ backgroundImage: `url(/Images/H6/${slide.img}.webp)` }}
           >
             <div className="h-full w-full absolute top-0 left-0 dark:bg-[#262221]/20 bg-[#e6dcd9]/10 pl-3 pt-3 flex flex-col justify-between">
-              <div className="text-[120px] leading-[90px] w-96 font-[kajiro] text-[#e6dcd9]">
+              <div className="text-[120px] leading-[90px] w-96 font-[kajiro] text-[#e6dcd9] max-[850px]:w-80">
                 {slide.title}
               </div>
-              <div className="text-lg pb-10 pr-3 font-sm text-[#e6dcd9]">
+              <div className="text-lg pb-10 pr-3 font-sm text-[#e6dcd9] max-[404px]:text-base max-[404px]:font-semibold">
                 {slide.description}
               </div>
             </div>

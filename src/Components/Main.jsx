@@ -12,7 +12,7 @@ const Main = ({ aboutRef, offersRef, servicesRef }) => {
     <>
       <SheryImg />
       <SwiperImg />
-      <div className="bg-[#e6dcd9] dark:bg-[#262221] dark:text-[#e6dcd9] text-[#262221] flex flex-col items-center justify-center text-center gap-20">
+      <div className="bg-[#e6dcd9] dark:bg-[#262221] dark:text-[#e6dcd9] text-[#262221] flex flex-col items-center justify-center text-center gap-20 max-[576px]:gap-0">
         <Services servicesRef={servicesRef} />
         <Offers offersRef={offersRef} />
         <Partners />

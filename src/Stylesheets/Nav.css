@@ -2,3 +2,47 @@
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
 }
+.visuallyHidden {
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+.bar1 {
+  top: 5px;
+}
+.bar2,
+.bar3 {
+  top: 13px;
+}
+.bar4 {
+  bottom: 8px;
+}
+#hamburgerToggle:checked + label > .hamburger2 > .bar1 {
+  transform: translateX(40px);
+  background-color: transparent;
+}
+
+#hamburgerToggle:checked + label > .hamburger2 > .bar2 {
+  transform: rotate(45deg);
+}
+#hamburgerToggle:checked + label > .hamburger2 > .bar3 {
+  transform: rotate(-45deg);
+}
+
+#hamburgerToggle:checked + label > .hamburger2 > .bar4 {
+  transform: translateX(-40px);
+  background-color: transparent;
+}
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-dropdown {
+  animation: dropdown 0.3s ease-out forwards;
+}

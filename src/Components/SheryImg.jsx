@@ -163,29 +163,29 @@ const SheryImg = () => {
               id="right-up"
               className="text-lg flex flex-col items-end gap-3 text-[0.83vw] max-[1200px]:text-[1vw]"
             >
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 Your stay matters — rest peacefully and let your dreams flourish
                 in a space crafted for ultimate relaxation and quality sleep.
               </h4>
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 Step into a world where luxury meets comfort. Our interiors are
                 designed to amaze, offering an extraordinary experience filled
                 with warmth and style.
               </h4>
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 End your day with serenity. Embrace quiet nights in a cozy
                 environment that offers unmatched comfort and peace of mind.
               </h4>
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 Make memories that last a lifetime. Whether big or small, every
                 moment here is a celebration of joy, peace, and elegance.
               </h4>
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 No more worries about your vehicle. Enjoy secure, easily
                 accessible, and hassle-free parking designed to keep your
                 convenience in mind.
               </h4>
-              <h4>
+              <h4 className=" text-[0.83vw]">
                 A flavorful journey awaits. Our restaurant is coming soon to
                 serve you delicious meals, unforgettable tastes, and
                 heartwarming service.

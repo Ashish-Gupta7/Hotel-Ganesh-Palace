@@ -36,10 +36,10 @@ const Partners = () => {
   return (
     <div className="w-full flex items-center justify-center flex-col gap-24">
       <div className="flex flex-col items-center justify-center gap-4 text-center pt-4 max-[1025px]:pt-1">
-        <h1 className="text-8xl font-semibold tracking max-[1025px]:text-6xl">
+        <h1 className="text-8xl font-semibold tracking max-[1025px]:text-6xl max-[685px]:text-4xl">
           Supporting partners
         </h1>
-        <h3 className="text-xl pt-4 tracking-wider">
+        <h3 className="text-xl pt-4 tracking-wider max-[685px]:text-lg max-[685px]:pt-0">
           The power of unity. The strength of support.
         </h3>
       </div>
@@ -51,7 +51,7 @@ const Partners = () => {
             href={partner.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`h-[114px] flex items-center justify-center max-[1025px]:h-[80px]`}
+            className={`h-[114px] flex items-center justify-center max-[1025px]:h-[80px] max-[685px]:h-[60px]`}
           >
             {typeof partner.img === "string" ? (
               <img
@@ -80,7 +80,7 @@ const Partners = () => {
         <button className="text-xs font-semibold font-sans px-3 py-1 bg-[#262221] dark:bg-[#e6dcd9] text-[#e6dcd9] dark:text-[#262221] rounded-full border-2 border-[#e6dcd9] dark:border-[#262221] transition duration-300">
           AWESOME
         </button>
-        <p className="font-semibold">
+        <p className="font-semibold max-[685px]:text-base">
           Unlock amazing deals through our trusted partners — stronger together,
           better offers!
         </p>

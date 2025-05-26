@@ -14,13 +14,13 @@ const About = ({ aboutRef }) => {
         <div className="w-full flex flex-col gap-10 py-6 max-[685px]:py-10 max-[685px]:gap-12 max-[576px]:gap-8 max-[576px]:py-8 max-[404px]:py-6 max-[404px]:gap-12">
           <div className="owner w-full flex flex-col items-start justify-center gap-5 max-[685px]:gap-2">
             <h1 className="text-2xl max-[404px]:text-xl">Founder & Owner</h1>
-            <div className="flex items-center justify-center gap-10">
+            <div className="flex items-center justify-center gap-10  max-[404px]:gap-4 max-[300px]:flex-col max-[300px]:items-start">
               <div className="flex items-center justify-center gap-5">
                 {/* <div className="h-[24px] w-[24px]">
                 <img src="/Images/Contact/Owner.png" alt="Owner" />
               </div> */}
                 <h3 className="text-xl text-[#A87F59] font-semibold max-[404px]:text-base">
-                  Deenanath Gupta
+                  Mr Deenanath Gupta
                 </h3>
               </div>
               <div className="flex items-center justify-center gap-5">
@@ -28,7 +28,7 @@ const About = ({ aboutRef }) => {
                 <img src="/Images/Contact/Owner.png" alt="Owner" />
               </div> */}
                 <h3 className="text-xl text-[#A87F59] font-semibold max-[404px]:text-base">
-                  Sahil Gupta
+                  Mr Sahil Gupta
                 </h3>
               </div>
             </div>

@@ -15,7 +15,7 @@ const Services = ({ servicesRef }) => {
       img: "Parking.svg",
     },
     {
-      name: "Restaurent Comming Soon",
+      name: "Restaurent Open Soon",
       img: "Restaurent.svg",
     },
   ];

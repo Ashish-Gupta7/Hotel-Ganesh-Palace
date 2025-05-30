@@ -12,7 +12,7 @@ const App = () => {
   };
   return (
     <>
-      <div className="h-full flex flex-col text-[#262221] font-cormorant dark:text-[#e6dcd9] transition duration-300">
+      <div className="h-full flex flex-col text-[#262221] dark:text-[#e6dcd9] transition duration-300">
         <Nav
           aboutRef={aboutRef}
           servicesRef={servicesRef}
